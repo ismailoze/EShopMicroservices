@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "basketdb": "StartWithoutDebugging",
+        "catalogdb": "StartWithoutDebugging",
+        "catalog.api": "StartDebugging",
+        "basket.api": "StartDebugging",
+        "discount.grpc": "StartDebugging"
+      }
+    }
+  }
+}
